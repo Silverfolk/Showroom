@@ -28,7 +28,7 @@ const Component2 = () => {
 
       {/* Lower part */}
       <div className='flex flex-col items-center justify-center'>
-        <h1 className="text-4xl mt-10 ml-77px mr-77px md:mt-119px md:ml-129.5 md:mr-129 font-helvetica text-center font-bold leading-10 text-custom_White">Are you ready to create your Showroom?</h1>
+        <h1 className="text-4xl mt-10 ml-77px mr-77px md:mt-119px md:ml-129 md:mr-129 font-helvetica text-center font-bold leading-10 text-custom_White">Are you ready to create your Showroom?</h1>
         <div className='flex justify-around font-semibold mt-33px mb-39px md:mb-30 gap-2'>
           <button className='text-xs text-center bg-white font-sans_pro mr-3 md:mr-5 pl-37px pr-37px pt-3.5 pb-13px rounded-full border-1 border-gray-700'>Get Early Access</button>
           <button className='text-xs text-center pl-37px pr-37px pt-3.5 pb-13px font-sans_pro rounded-full text-custom_White border-2 border-white-700'>Plans and Pricing</button>
