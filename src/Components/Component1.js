@@ -38,8 +38,8 @@ const Component1 = () => {
 
  {/* Images  */}
  <div className='relative ml-25 md:ml-37.5'>
-  <img src={Land} className="w-full h-full" alt="Land Image" />
-  <img src={Phone} className='absolute left-[-100px]  md:left-[-44] bottom-[-192px]  ' alt="Phone Image" />
+  <img src={Land} className="w-full h-296px cs:h-full" alt="Land Image" />
+  <img src={Phone} className='absolute left-[-50px] bottom-[-60px]  h-259px cs:h-611px md:left-[-44] cs:bottom-[-200px]  ' alt="Phone Image" />
   {/* top-32 instead of bottom-[-192px] */}
   
 </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Showroom from '../Utils/Images/Showroom.png'
 const Component2 = () => {
   return (
-    <div className="bg-custom_nav_comp2_blue w-full mt-67.5">
+    <div className="bg-custom_nav_comp2_blue w-full mt-97px cs:mt-67.5">
      {/* Upper part */}
      <div className="flex flex-col lg:flex-row w-full h-full justify-between">
 
