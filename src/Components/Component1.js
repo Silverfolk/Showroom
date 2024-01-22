@@ -5,7 +5,7 @@ const Component1 = () => {
   return (
     <div className='flex flex-col lg:flex-row   lg:mt-19 lg:mb-36 justify-between'>
       {/* Text Box  */}
-    <div className=' mt-20.5 ml-5 lg:mt-25 lg:ml-82.5 mb-11.5 lg:mb-0 size-full lg:size-2/5 flex items-center md:justify-center '>
+    <div className=' mt-20.5 ml-5 cs:mt-25 lg:ml-82.5 mb-11.5 lg:mb-0 w-258px cs:size-140.5 lg:size-2/5 flex items-center md:justify-center '>
   <div >
     
     {/* Start and Sell Box  */}
@@ -19,8 +19,8 @@ const Component1 = () => {
     </p>
 
     {/* Input Fields */}
-    <div className="flex font-sans_pro space-x-4  flex-wrap">
-    <input type="text" id="first_name" className="w-175px h-10.5 lg:w-50 lg:h-12.5  bg-custom_formcolor  text-custom-landing-input pt-3.5 pl-4 pb-3  rounded-md  " placeholder="Full Name*" required/>
+    <div className="flex font-sans_pro   flex-wrap">
+    <input type="text" id="first_name" className="w-175px h-10.5 mr-4 lg:w-50 lg:h-12.5  bg-custom_formcolor  text-custom-landing-input pt-3.5 pl-4 pb-3  rounded-md  " placeholder="Full Name*" required/>
     <input type="email" id="company_name" className=" w-175px h-10.5 lg:w-50 lg:h-12.5 bg-custom_formcolor text-custom-landing-input pt-3.5 pl-4 pb-3  rounded-md   " placeholder="Company Name*" required/>
     </div>
     {/* full box */}
